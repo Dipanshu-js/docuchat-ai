@@ -1,0 +1,51 @@
+{
+  "name": "docuchat-ai",
+  "version": "1.0.0",
+  "description": "RAG chat for your documents — Next.js 15 + LangChain + Upstash Vector + Groq + Gemini",
+  "keywords": ["rag", "ai", "langchain", "nextjs", "chatbot", "pdf", "groq", "gemini", "openai", "anthropic", "upstash"],
+  "homepage": "https://github.com/Dipanshu-js/docuchat-ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dipanshu-js/docuchat-ai.git"
+  },
+  "license": "MIT",
+  "author": "Dipanshu Singh <dipanshusin28@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "langchain": "^0.3.21",
+    "@langchain/core": "^0.3.43",
+    "@langchain/textsplitters": "^0.1.0",
+    "@langchain/openai": "^0.4.4",
+    "@langchain/anthropic": "^0.3.14",
+    "@langchain/groq": "^0.1.3",
+    "@langchain/google-genai": "^0.1.8",
+    "@langchain/community": "^0.3.36",
+    "@upstash/vector": "^1.2.1",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.8.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.7.0",
+    "tailwindcss": "^4.0.14",
+    "@tailwindcss/postcss": "^4.0.14",
+    "postcss": "^8.5.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
